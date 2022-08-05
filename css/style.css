@@ -209,10 +209,15 @@ p {
 .banner_wrapper {
     padding-top: 6.875rem;
     z-index: 1;
-    background-image: url('../images/home-banner.png');
+    /* background-image: url('../images/home-banner.png'); */
     background-repeat: no-repeat;
     background-position: top center;
     background-size: cover;
+}
+.about_wrapper .img-fluid {
+    max-width: 100% !important;
+    width: 500px;
+    height: auto;
 }
 
 .banner_wrapper .col-lg-7 {
