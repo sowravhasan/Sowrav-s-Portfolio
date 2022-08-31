@@ -529,7 +529,7 @@ p {
 .footer-area {
     margin-top:0;
     padding-top: 0;
-    margin-bottom:0;
+    margin-bottom:-100px;
     padding-bottom: 0;
 }
 .footer_wrapper .footer-logo img {
