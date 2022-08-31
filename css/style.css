@@ -526,6 +526,12 @@ p {
 }
 
 /* footer */
+.footer-area {
+    margin-top:0;
+    padding-top: 0;
+    margin-bottom:0;
+    padding-bottom: 0;
+}
 .footer_wrapper .footer-logo img {
     max-width: 12.5rem;
     height: auto;
