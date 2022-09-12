@@ -342,11 +342,15 @@ p {
     font-size: 50px;
     color: #0677a7;
 }
+.rounded{
+    border-radius: 10px !important;
+}
 /* 7. Counter Area CSS */
 
 .counter-area {
 	background: var(--gradient);
     margin-bottom: 20px;
+    border-radius: 10px !important;
 }
 
 .counter-area .section-title h4 {
@@ -430,6 +434,7 @@ p {
     background-size: cover;
     background-position: center;
     padding: 9.375rem 0;
+    border-radius: 10px !important;
 }
 
 .newsletter input {
