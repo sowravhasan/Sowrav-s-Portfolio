@@ -1,5 +1,10 @@
 
 /*Responsive Design*/
+@media (max-width: 1700px){
+    .top-right-img img{
+        margin-left: 100px;
+    }
+}
 
 @media (max-width: 1199.5px) {
     h1 {
@@ -26,9 +31,6 @@
         left: 0.3125rem;
         right: 0.3125rem;
         bottom: 0.3125rem;
-    }
-    .top-right-img img{
-        margin-left: 100px;
     }
 }
 
