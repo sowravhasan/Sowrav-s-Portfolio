@@ -27,6 +27,9 @@
         right: 0.3125rem;
         bottom: 0.3125rem;
     }
+    .top-right-img img{
+        margin-left: 100px;
+    }
 }
 
 @media (max-width:991px) {
@@ -35,6 +38,9 @@
 
     .header-scrolled {
         height: auto;
+    }
+    .top-right-img img{
+        margin-left: 0px;
     }
 
     .header_wrapper .navbar-collapse {

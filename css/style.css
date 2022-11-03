@@ -207,6 +207,7 @@ p {
 
 /* 3 Banner */
 .banner_wrapper {
+    margin-top: 60px;
     padding-top: 6.875rem;
     z-index: 1;
     /* background-image: url('../images/home-banner.png'); */
