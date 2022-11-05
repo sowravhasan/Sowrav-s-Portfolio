@@ -24,13 +24,13 @@ $(document).ready(function(){
         delay: 10,
         time: 1200
     });
-    $(".testimonial-carousel").owlCarousel({
-        autoplay: true,
-        smartSpeed: 1500,
-        dots: true,
-        loop: true,
-        items: 1
-    });
+    // $(".testimonial-carousel").owlCarousel({
+    //     autoplay: true,
+    //     smartSpeed: 1500,
+    //     dots: true,
+    //     loop: true,
+    //     items: 1
+    // });
     $('.skill').waypoint(function () {
         $('.progress .progress-bar').each(function () {
             $(this).css("width", $(this).attr("aria-valuenow") + '%');
