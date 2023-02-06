@@ -541,13 +541,15 @@
                 <div class="contact-form wow fadeInRight">
                     <h4 class="page-title">Write Me Now
                     </h4>
-                    <form>
-                        <input type="text" id="name" placeholder="name" />
-                        <input type="text" id="email" placeholder="email" />
-                        <input type="text" id="subject" placeholder="subjct" />
-                        <textarea id="textarea" placeholder="message"></textarea>
+                    <form target="_blank" action="https://formsubmit.co/sowravhasan101@gmail.com" method="POST" enctype="multipart/form-data">
+                        <input type="hidden" name="_captcha" value="false">
+                        <input type="text" name="name"  placeholder="Enter Your Name" required>
+                        <input type="email" name="email" placeholder="Enter Your Email" required>
+                        <input type="hidden" name="_subject" value="Congratulation, You have a new mail !">
+                        <textarea name="message" placeholder="Tell me how can I help you?"></textarea>
+                        <!-- <input type="file" name="attachment" accept="image/png, image/jpeg"> -->
                         <input class="main-btn-1" id="submit" type="submit" value="send" />
-                    </form>
+                      </form>
                 </div>
             </div>
             <div class="col-md-5">
