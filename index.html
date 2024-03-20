@@ -550,8 +550,7 @@
                     <h4 class="page-title">Write Me Now
                     </h4>
                     <form target="_blank" action="https://formsubmit.co/sowravhasan101@gmail.com" method="POST" enctype="multipart/form-data">
-                        <input type="hidden" name="_captcha" value="false">
-			 <input type="hidden" name="_template" value="table">
+			 <input type="hidden" name="_template" value="box">
                         <input type="text" name="name"  placeholder="Enter Your Name" required>
                         <input type="email" name="email" placeholder="Enter Your Email" required>
                         <input type="hidden" name="_subject" value="Congratulation, You have a new mail !">
@@ -596,14 +595,14 @@
                     </div>
                 </div>
                 <div class="col-lg-8 col-sm-12">
-                    <p class="footer-text text-center mt-2 wow fadeInDown">Copyright © 2022 All rights reserved  <i class="far fa-heart"></i> by <a href="https://www.facebook.com/sowravhasan0" target="blank">Sowrav Hasan</a>
+                    <p class="footer-text text-center mt-2 wow fadeInDown">Copyright © <span class="footer-year"></span> All rights reserved  <i class="far fa-heart"></i> by <a href="https://www.facebook.com/sowravhasan0" target="blank">Sowrav Hasan</a>
                     </p>
                 </div>
             </div>
         </div>
     </section>
     <!-- Footer section exit -->
-
+    <script>document.querySelector('.footer-year').innerHTML += " " + new Date().getFullYear();</script>
     <!-- Bootstrap 5 JS CDN Links -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
      <!-- Jquery cdn -->
